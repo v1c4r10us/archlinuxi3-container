@@ -1,0 +1,24 @@
+[colors.normal]
+black = "0x95ffa4"
+
+[font]
+size = 12
+
+[font.bold]
+family = "courier new"
+style = "Bold"
+
+[font.bold_italic]
+family = "courier new"
+style = "Bold Italic"
+
+[font.italic]
+family = "courier new"
+style = "Italic"
+
+[font.normal]
+family = "courier new"
+style = "Regular"
+
+[window]
+opacity = 0.65
