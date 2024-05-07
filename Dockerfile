@@ -9,6 +9,8 @@ RUN useradd -m z3r0 \
     && echo '%wheel ALL=(ALL:ALL) NOPASSWD:ALL' >> /etc/sudoers \
     && echo ':1=z3r0' >> /etc/tigervnc/vncserver.users
 COPY i3/i3status.conf /etc/i3status.conf
+RUN mkdir /home/z3r0/data \
+    && chown z3r0 /home/z3r0/data
 
 USER z3r0
 RUN cd /home/z3r0 && git clone https://aur.archlinux.org/yay-git.git \
