@@ -1,7 +1,7 @@
 FROM archlinux/archlinux
 
 RUN pacman -Syyu --noconfirm
-RUN pacman -S i3 alacritty ttf-iosevka-nerd neovim rofi picom neovim bat lsd tigervnc feh git nodejs npm base-devel go net-tools lsd firefox --noconfirm
+RUN pacman -S i3 alacritty ttf-iosevka-nerd ttf-fantasque-sans-mono neovim rofi picom neovim bat lsd tigervnc feh git nodejs npm base-devel go net-tools lsd firefox tree-sitter fd ripgrep lazygit --noconfirm
 
 RUN useradd -m z3r0 \
     && usermod -aG wheel z3r0 \

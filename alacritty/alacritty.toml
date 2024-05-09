@@ -2,22 +2,22 @@
 black = "0x95ffa4"
 
 [font]
-size = 12
+size = 11
 
 [font.bold]
-family = "courier new"
+family = "fantasque sans mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "courier new"
+family = "fantasque sans mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "courier new"
+family = "fantasque sans mono"
 style = "Italic"
 
 [font.normal]
-family = "courier new"
+family = "fantasque sans mono"
 style = "Regular"
 
 [window]
